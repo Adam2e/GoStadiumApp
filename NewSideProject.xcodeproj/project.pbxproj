@@ -3,25 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2207068723464BCC0071F1C1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2207068623464BCC0071F1C1 /* ThirdViewController.swift */; };
+		2207068B23464FCE0071F1C1 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2207068A23464FCE0071F1C1 /* FourthViewController.swift */; };
+		2207068D234650A90071F1C1 /* FithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2207068C234650A90071F1C1 /* FithViewController.swift */; };
+		22070693234655800071F1C1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22070692234655800071F1C1 /* ProfileViewController.swift */; };
+		2228BB8B23A2A24F006B40BC /* FusionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2228BB8A23A2A24F006B40BC /* FusionViewController.swift */; };
+		223E857E236899F400288963 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E857D236899F400288963 /* Extensions.swift */; };
+		223FEF9723D0D4E4003A5B46 /* FebCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223FEF9623D0D4E4003A5B46 /* FebCupViewController.swift */; };
+		224316F82382FBF400539953 /* TwelveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224316F72382FBF400539953 /* TwelveViewController.swift */; };
 		226CBDC62344FC32006653CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226CBDC52344FC32006653CF /* AppDelegate.swift */; };
 		226CBDC82344FC32006653CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226CBDC72344FC32006653CF /* ViewController.swift */; };
 		226CBDCB2344FC32006653CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226CBDC92344FC32006653CF /* Main.storyboard */; };
-		226CBDCD2344FC34006653CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226CBDCC2344FC34006653CF /* Assets.xcassets */; };
 		226CBDD02344FC34006653CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226CBDCE2344FC34006653CF /* LaunchScreen.storyboard */; };
+		226CBDD823450215006653CF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226CBDD723450215006653CF /* SecondViewController.swift */; };
+		227885EC236747FB00AA3E6D /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227885EB236747FB00AA3E6D /* TeamViewController.swift */; };
+		227EF6EE237081670033F7DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227EF6ED2370815F0033F7DE /* Assets.xcassets */; };
+		229362292347952200164ECD /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229362282347952200164ECD /* SixViewController.swift */; };
+		2293622B234795B600164ECD /* SevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293622A234795B600164ECD /* SevenViewController.swift */; };
+		2293622D234795D800164ECD /* EightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293622C234795D800164ECD /* EightViewController.swift */; };
+		2293622F234795FE00164ECD /* NineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293622E234795FE00164ECD /* NineViewController.swift */; };
+		229362312347A63C00164ECD /* TenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229362302347A63C00164ECD /* TenthViewController.swift */; };
+		229532D7238EE0B900BB42FD /* YourCupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229532D6238EE0B900BB42FD /* YourCupsViewController.swift */; };
+		22B3D9D6238EE1FD0024DBE1 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B3D9D5238EE1FD0024DBE1 /* Assignment.swift */; };
+		22B86BBE2354CACC0055E4F6 /* EleventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B86BBD2354CACC0055E4F6 /* EleventhViewController.swift */; };
+		22BD497F238D941100831334 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 22BD497E238D941100831334 /* SDWebImage */; };
+		22BD4981238D941100831334 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 22BD4980238D941100831334 /* SDWebImageMapKit */; };
+		22FA07962369E738004FE61D /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA07952369E738004FE61D /* ImageViewController.swift */; };
+		22FA07982369ED2B004FE61D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA07972369ED2B004FE61D /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2207068623464BCC0071F1C1 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		2207068A23464FCE0071F1C1 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FourthViewController.swift; path = NewSideProject/FourthViewController.swift; sourceTree = "<group>"; };
+		2207068C234650A90071F1C1 /* FithViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FithViewController.swift; sourceTree = "<group>"; };
+		22070692234655800071F1C1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2228BB8A23A2A24F006B40BC /* FusionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FusionViewController.swift; sourceTree = "<group>"; };
+		223E857D236899F400288963 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		223FEF9623D0D4E4003A5B46 /* FebCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FebCupViewController.swift; sourceTree = "<group>"; };
+		224316F72382FBF400539953 /* TwelveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwelveViewController.swift; sourceTree = "<group>"; };
 		226CBDC22344FC32006653CF /* NewSideProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewSideProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		226CBDC52344FC32006653CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		226CBDC72344FC32006653CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		226CBDCA2344FC32006653CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		226CBDCC2344FC34006653CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		226CBDCF2344FC34006653CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		226CBDD12344FC34006653CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		226CBDD723450215006653CF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		227885EB236747FB00AA3E6D /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		227EF6ED2370815F0033F7DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		229362282347952200164ECD /* SixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
+		2293622A234795B600164ECD /* SevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenViewController.swift; sourceTree = "<group>"; };
+		2293622C234795D800164ECD /* EightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightViewController.swift; sourceTree = "<group>"; };
+		2293622E234795FE00164ECD /* NineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineViewController.swift; sourceTree = "<group>"; };
+		229362302347A63C00164ECD /* TenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenthViewController.swift; sourceTree = "<group>"; };
+		229532D6238EE0B900BB42FD /* YourCupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourCupsViewController.swift; sourceTree = "<group>"; };
+		22B3D9D5238EE1FD0024DBE1 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		22B86BBD2354CACC0055E4F6 /* EleventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EleventhViewController.swift; sourceTree = "<group>"; };
+		22FA07952369E738004FE61D /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		22FA07972369ED2B004FE61D /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BD4981238D941100831334 /* SDWebImageMapKit in Frameworks */,
+				22BD497F238D941100831334 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +82,22 @@
 		226CBDB92344FC32006653CF = {
 			isa = PBXGroup;
 			children = (
+				2228BB8A23A2A24F006B40BC /* FusionViewController.swift */,
+				229532D6238EE0B900BB42FD /* YourCupsViewController.swift */,
 				226CBDC42344FC32006653CF /* NewSideProject */,
 				226CBDC32344FC32006653CF /* Products */,
+				22070692234655800071F1C1 /* ProfileViewController.swift */,
+				226CBDD723450215006653CF /* SecondViewController.swift */,
+				2207068623464BCC0071F1C1 /* ThirdViewController.swift */,
+				2207068A23464FCE0071F1C1 /* FourthViewController.swift */,
+				2207068C234650A90071F1C1 /* FithViewController.swift */,
+				229362282347952200164ECD /* SixViewController.swift */,
+				2293622A234795B600164ECD /* SevenViewController.swift */,
+				2293622C234795D800164ECD /* EightViewController.swift */,
+				2293622E234795FE00164ECD /* NineViewController.swift */,
+				229362302347A63C00164ECD /* TenthViewController.swift */,
+				22B86BBD2354CACC0055E4F6 /* EleventhViewController.swift */,
+				227885EB236747FB00AA3E6D /* TeamViewController.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +114,14 @@
 			children = (
 				226CBDC52344FC32006653CF /* AppDelegate.swift */,
 				226CBDC72344FC32006653CF /* ViewController.swift */,
+				223E857D236899F400288963 /* Extensions.swift */,
+				22FA07972369ED2B004FE61D /* Pokemon.swift */,
 				226CBDC92344FC32006653CF /* Main.storyboard */,
-				226CBDCC2344FC34006653CF /* Assets.xcassets */,
+				223FEF9623D0D4E4003A5B46 /* FebCupViewController.swift */,
+				22B3D9D5238EE1FD0024DBE1 /* Assignment.swift */,
+				224316F72382FBF400539953 /* TwelveViewController.swift */,
+				227EF6ED2370815F0033F7DE /* Assets.xcassets */,
+				22FA07952369E738004FE61D /* ImageViewController.swift */,
 				226CBDCE2344FC34006653CF /* LaunchScreen.storyboard */,
 				226CBDD12344FC34006653CF /* Info.plist */,
 			);
@@ -80,6 +144,10 @@
 			dependencies = (
 			);
 			name = NewSideProject;
+			packageProductDependencies = (
+				22BD497E238D941100831334 /* SDWebImage */,
+				22BD4980238D941100831334 /* SDWebImageMapKit */,
+			);
 			productName = NewSideProject;
 			productReference = 226CBDC22344FC32006653CF /* NewSideProject.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 226CBDB92344FC32006653CF;
+			packageReferences = (
+				22BD497D238D941100831334 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 226CBDC32344FC32006653CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -123,7 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				226CBDD02344FC34006653CF /* LaunchScreen.storyboard in Resources */,
-				226CBDCD2344FC34006653CF /* Assets.xcassets in Resources */,
+				227EF6EE237081670033F7DE /* Assets.xcassets in Resources */,
 				226CBDCB2344FC32006653CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +206,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226CBDD823450215006653CF /* SecondViewController.swift in Sources */,
+				229532D7238EE0B900BB42FD /* YourCupsViewController.swift in Sources */,
+				22B86BBE2354CACC0055E4F6 /* EleventhViewController.swift in Sources */,
+				2293622B234795B600164ECD /* SevenViewController.swift in Sources */,
+				22FA07982369ED2B004FE61D /* Pokemon.swift in Sources */,
+				223FEF9723D0D4E4003A5B46 /* FebCupViewController.swift in Sources */,
 				226CBDC82344FC32006653CF /* ViewController.swift in Sources */,
+				2293622F234795FE00164ECD /* NineViewController.swift in Sources */,
+				2207068723464BCC0071F1C1 /* ThirdViewController.swift in Sources */,
+				22B3D9D6238EE1FD0024DBE1 /* Assignment.swift in Sources */,
+				224316F82382FBF400539953 /* TwelveViewController.swift in Sources */,
+				22FA07962369E738004FE61D /* ImageViewController.swift in Sources */,
 				226CBDC62344FC32006653CF /* AppDelegate.swift in Sources */,
+				229362312347A63C00164ECD /* TenthViewController.swift in Sources */,
+				22070693234655800071F1C1 /* ProfileViewController.swift in Sources */,
+				229362292347952200164ECD /* SixViewController.swift in Sources */,
+				223E857E236899F400288963 /* Extensions.swift in Sources */,
+				2228BB8B23A2A24F006B40BC /* FusionViewController.swift in Sources */,
+				2207068B23464FCE0071F1C1 /* FourthViewController.swift in Sources */,
+				2293622D234795D800164ECD /* EightViewController.swift in Sources */,
+				2207068D234650A90071F1C1 /* FithViewController.swift in Sources */,
+				227885EC236747FB00AA3E6D /* TeamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +425,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22BD497D238D941100831334 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22BD497E238D941100831334 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22BD497D238D941100831334 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		22BD4980238D941100831334 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22BD497D238D941100831334 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 226CBDBA2344FC32006653CF /* Project object */;
 }

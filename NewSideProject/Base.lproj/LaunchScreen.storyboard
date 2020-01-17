@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,15 +13,59 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomeBackground" translatesAutoresizingMaskIntoConstraints="NO" id="doe-eT-FYl">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stadiumlogo-1" translatesAutoresizingMaskIntoConstraints="NO" id="SeB-rB-FPf">
+                                <rect key="frame" x="0.0" y="212" width="414" height="414"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brought to you by Go Staium and Infiverse" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdo-Ov-V3H">
+                                <rect key="frame" x="0.0" y="806" width="414" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.037429042160000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Images made by Niantic produced by Fandom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5n-cl-PbX">
+                                <rect key="frame" x="0.0" y="841" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.037429042160000002" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.96078431610000004" blue="0.94279676680000002" alpha="1" colorSpace="deviceRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.41856241230000002" green="0.70662766700000001" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="SeB-rB-FPf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0iu-jR-1eg"/>
+                            <constraint firstItem="SeB-rB-FPf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3KV-kp-cZs"/>
+                            <constraint firstItem="doe-eT-FYl" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="BBf-3v-jAu"/>
+                            <constraint firstItem="SeB-rB-FPf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="C8E-4A-lI0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rdo-Ov-V3H" secondAttribute="bottom" constant="18" id="ETB-OI-W1i"/>
+                            <constraint firstItem="rdo-Ov-V3H" firstAttribute="top" secondItem="SeB-rB-FPf" secondAttribute="bottom" constant="180" id="Hi2-Co-EEN"/>
+                            <constraint firstItem="doe-eT-FYl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Nad-vS-Vek"/>
+                            <constraint firstItem="T5n-cl-PbX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="QGc-4t-5Ec"/>
+                            <constraint firstItem="T5n-cl-PbX" firstAttribute="top" secondItem="SeB-rB-FPf" secondAttribute="bottom" constant="215" id="QJX-FP-SFz"/>
+                            <constraint firstItem="rdo-Ov-V3H" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="REO-Pu-xmj"/>
+                            <constraint firstItem="rdo-Ov-V3H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UN3-kS-ONd"/>
+                            <constraint firstItem="doe-eT-FYl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vhx-Kj-54H"/>
+                            <constraint firstItem="T5n-cl-PbX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ZNK-gY-Zoc"/>
+                            <constraint firstItem="T5n-cl-PbX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cOg-NG-3nz"/>
+                            <constraint firstAttribute="bottom" secondItem="doe-eT-FYl" secondAttribute="bottom" id="gCL-TL-nOG"/>
+                            <constraint firstItem="SeB-rB-FPf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="168" id="hKx-3k-I8n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SeB-rB-FPf" secondAttribute="bottom" constant="236" id="sGK-00-rCG"/>
+                            <constraint firstItem="SeB-rB-FPf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tVm-f1-zh8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="HomeBackground" width="341" height="521"/>
+        <image name="stadiumlogo-1" width="2481" height="2482"/>
+    </resources>
 </document>
